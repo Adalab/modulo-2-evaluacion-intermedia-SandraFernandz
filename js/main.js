@@ -35,7 +35,7 @@ function guessNumber(){
  let count = 0;
  function counterSelect(){
      count++;
-     counter.innerHTML = `Ya lo has intentado ${count} veces`;
+     counter.innerHTML = `Número de intentos: ${count}`;
 }
 
 //función que engloba las funciones que se desencadenan al escuchar el mismo elemento
