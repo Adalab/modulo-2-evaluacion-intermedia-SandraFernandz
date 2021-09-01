@@ -7,10 +7,11 @@
   margin-right: 50px;
   line-height: 30px;
 }
-.form {
+.formulario {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: left;
 }
 
 .button {
