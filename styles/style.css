@@ -1,0 +1,32 @@
+.body {
+  font-size: 16px;
+  color: rgb(81, 76, 76);
+  font-family: sans-serif;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 30px;
+}
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: #1ad9c4;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+p {
+  margin-top: 20px;
+  border: solid 5px grey;
+  padding: 5px;
+  padding-left: 5px;
+}
+.counter {
+  margin-top: 10px;
+}

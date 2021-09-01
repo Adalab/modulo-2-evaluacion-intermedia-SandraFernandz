@@ -15,7 +15,6 @@ const randomNum = getRandomNumber(100);
     console.log(randomNum);
 
 
-console.log(numberInput.value);
 
 //función que genera pistas del número aleatorio creado, según el número que introduce el usuario 
 function guessNumber(){
@@ -43,6 +42,7 @@ function guessNumber(){
  function handlerGuessNumber(){
      guessNumber();
      counterSelect();
+    console.log(numberInput.value);
  }
 
 update.addEventListener('click', handlerGuessNumber);
