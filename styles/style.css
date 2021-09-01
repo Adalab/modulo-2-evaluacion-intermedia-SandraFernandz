@@ -20,6 +20,7 @@
   color: white;
   border: none;
   border-radius: 3px;
+  display: inline-block;
 }
 
 p {
@@ -30,4 +31,7 @@ p {
 }
 .counter {
   margin-top: 10px;
+}
+.input {
+  display: inline-block;
 }

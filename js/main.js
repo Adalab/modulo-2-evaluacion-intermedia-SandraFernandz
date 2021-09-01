@@ -20,7 +20,7 @@ const randomNum = getRandomNumber(100);
 function guessNumber(){
     if(numberInput.value < 0 || numberInput.value >= 101){
         hint.innerHTML = 'Por favor, introduce un número entre 0 y 100'
-    }else if(randomNum === numberInput.value){
+    }else if(randomNum === parseInt(numberInput.value)){
         hint.innerHTML = '¡Felicidades!'
     }else if(randomNum > numberInput.value){
         hint.innerHTML = 'El número es demasiado bajo, inténtalo de nuevo'
@@ -42,7 +42,7 @@ function guessNumber(){
  function handlerGuessNumber(){
      guessNumber();
      counterSelect();
-    console.log(numberInput.value);
+   
  }
 
 update.addEventListener('click', handlerGuessNumber);
