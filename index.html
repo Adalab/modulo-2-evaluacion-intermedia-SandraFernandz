@@ -4,7 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Adivina el número</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1>Adivina el número</h1>
+      <form action="">
+        <label for="number">Introduce aquí tu número, por favor</label>
+        <input type="text" id="number" class="js_number" />
+        <input type="button" value="Prueba" class="js_update" />
+      </form>
+      <p class="js_tries">Pista: Escribe el número y dale a Prueba</p>
+      <p class="js_counter">Número de intentos: 0</p>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
 </html>
